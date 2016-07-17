@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 # DEFAULT CONFIGURATION
 
+SECRET_KEY = "CHANGE_THIS"
+
 
 # DATABASE
 SQLALCHEMY_DATABASE_URI = "postgresql://metabrainz:metabrainz@db:5432/metabrainz"
-TEST_SQLALCHEMY_DATABASE_URI = "postgresql://metabrainz_test:metabrainz_test@db:5432/metabrainz_test"
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 
@@ -53,8 +54,9 @@ MUSICBRAINZ_CLIENT_SECRET = ""
 # MISC
 
 # Mail server
-SMTP_SERVER = "localhost"
+SMTP_SERVER = "mail"
 SMTP_PORT = 25
+MAIL_FROM_DOMAIN = "metabrainz.org"
 
 ADMINS = []
 
