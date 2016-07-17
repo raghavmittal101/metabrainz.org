@@ -1,4 +1,3 @@
-coverage == 4.0.3
 git+https://github.com/metabrainz/python-brainzutils.git@596bf8899b7a213f64d09ce7c94a7f25cfd51107
 Fabric == 1.11.1
 Flask-Admin == 1.3.0
@@ -7,8 +6,9 @@ Flask-Script == 2.0.5
 Flask-SQLAlchemy == 2.1
 Flask-Testing == 0.4.2
 Flask-WTF == 0.12
-nose == 1.3.7
 psycopg2 == 2.6
+pytest == 2.9.2
+pytest-cov == 2.2.1
 python-memcached == 1.57
 pytz == 2015.7
 rauth == 0.7.2
