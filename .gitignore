@@ -22,6 +22,3 @@ config.py
 
 # Application data
 /data
-
-# Vagrant
-.vagrant
